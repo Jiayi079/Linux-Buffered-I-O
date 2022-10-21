@@ -44,4 +44,3 @@ fileInfo * GetFileInfo (char * fname);
 // Function LBAread will read lbaCount BLOCKS into the buffer starting from
 // lbaPosition Block.  
 uint64_t LBAread (void * buffer, uint64_t lbaCount, uint64_t lbaPosition);
-
